@@ -1,19 +1,20 @@
 :root {
   --bg: #e8e4db;
-  --bg-card: #ede9e1;
+  --bg-card: #ede9e1;       /* slightly lighter than bg for cards */
   --bg-dark: #1a1a18;
   --text: #1a1a18;
   --text-light: #5a5a52;
-  --border-subtle: #c8c4bb;
+  --border: #1a1a18;        /* black borders */
+  --border-subtle: #c8c4bb; /* subtle dividers inside cards */
   --white: #ffffff;
   --serif: 'Playfair Display', Georgia, serif;
   --sans: 'DM Sans', system-ui, sans-serif;
   --nav-h: 52px;
-  --content-max: 980px;
+  --content-max: 980px;     /* wider content */
   /* min 20px so mobile has breathing room matching hero padding */
   --page-pad: clamp(20px, 5vw, 80px);
   --dot-size: 28px;
-  --line-left: 13px; /* center of the 2px line = (dot-size/2) - 1 */
+  --line-left: 13px;        /* center of the 2px line = (dot-size/2) - 1 */
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -87,7 +88,7 @@ nav a.active { color: white; border-bottom-color: rgba(255,255,255,0.45); }
   content: '';
   position: absolute;
   left: var(--line-left);
-  top: -32px;   /* extend well above first dot for visual breathing room */
+  top: -10px;   /* extend well above first dot for visual breathing room */
   bottom: 0;
   width: 2px;
   background: var(--bg-dark);
