@@ -43,3 +43,11 @@ document.addEventListener('keydown', e => {
     });
   }
 });
+
+// Toggle for coursework and experience in cards
+function toggleCard(btn) {
+  const panel = btn.nextElementSibling;
+  const isOpen = panel.classList.contains('open');
+  btn.classList.toggle('open', !isOpen);
+  panel.classList.toggle('open', !isOpen);
+}
