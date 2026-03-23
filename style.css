@@ -220,7 +220,7 @@ nav a.active { color: white; border-bottom-color: rgba(255,255,255,0.45); }
 */
 .project-thumb {
   width: 100%;
-  aspect-ratio: 4/3;
+  aspect-ratio: 2/1;
   object-fit: cover;
   border-radius: 6px;
   border: 1.5px solid var(--bg-dark);
