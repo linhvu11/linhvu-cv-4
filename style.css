@@ -299,7 +299,7 @@ nav a.active { color: white; border-bottom-color: rgba(255,255,255,0.45); }
 
 /* ══ MOBILE responsive adjustments ══ */
 /* ══ HERO mobile ══ */
-@media (max-width: 640px) {
+@media (max-width: 968px) {
   .hero {
     grid-template-columns: 1fr !important;
     gap: 28px !important;
@@ -315,7 +315,7 @@ nav a.active { color: white; border-bottom-color: rgba(255,255,255,0.45); }
   .hero-name { font-size: 2.4rem !important; }
 }
 
-@media (max-width: 968px) {
+@media (max-width: 600px) {
   .skills-two-col { grid-template-columns: 1fr; gap: 32px; }
   .projects-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
   .lang-list { gap: 32px; }
