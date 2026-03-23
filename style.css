@@ -189,8 +189,8 @@ nav a.active { color: white; border-bottom-color: rgba(255,255,255,0.45); }
 .skills-col-head { font-family: var(--serif); font-size: 1.05rem; font-weight: 400; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid var(--border-subtle); }
 .skills-group { margin-bottom: 20px; }
 .skills-group:last-child { margin-bottom: 0; }
-.skills-group-title { font-weight: 600; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 5px; color: var(--text-light); }
-.skills-category-desc { font-size: 15px; line-height: 1.65; }
+.skills-group-title { font-weight: 600; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 5px; }
+.skills-category-desc { font-size: 15px; line-height: 1.65; color: var(--text-light); }
 
 /* ══ LANGUAGES ══ */
 .lang-list { display: flex; gap: 60px; justify-content: center; flex-wrap: wrap; }
