@@ -12,7 +12,9 @@
   --nav-h: 52px;
   --content-max: 980px;     /* wider content */
   /* min 20px so mobile has breathing room matching hero padding */
-  --page-pad: clamp(20px, 5vw, 80px);
+  /* --page-pad: clamp(20px, 5vw, 80px); */
+  --page-pad: clamp(20px, 10vw, 160px);
+  /* --page-pad-mobile: clamp(20px, 5vw, 80px); */
   --dot-size: 28px;
   --line-left: 13px;        /* center of the 2px line = (dot-size/2) - 1 */
 }
