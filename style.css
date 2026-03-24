@@ -150,9 +150,11 @@ nav a.active { color: white; border-bottom-color: rgba(255,255,255,0.45); }
 }
 .timeline-card-date svg { width: 12px; height: 12px; fill: none; stroke: var(--text-light); stroke-width: 1.8; }
 .timeline-card-org { font-size: 15px; font-weight: 500; color: var(--text); margin-bottom: 12px; display: block; }
+/*
 .timeline-card-bullets { padding-left: 18px; }
 .timeline-card-bullets li { font-size: 15px; line-height: 1.7; margin-bottom: 7px; }
 .timeline-card-bullets li:last-child { margin-bottom: 0; }
+*/
 
 .edu-meta { font-size: 14px; color: var(--text-light); font-style: italic; margin-bottom: 10px; }
 .edu-awards-list { list-style: none; font-size: 15px; }
@@ -208,6 +210,9 @@ nav a.active { color: white; border-bottom-color: rgba(255,255,255,0.45); }
 }
 .experience-panel.open { display: block; animation: dropIn 0.2s ease; }
 @keyframes dropIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: none; } }
+.experience-panel p { margin-bottom: 6px; font-size: 14px; font-style: italic; }
+.experience-panel li { font-size: 14px; line-height: 1.65; margin-bottom: 6px; }
+.experience-panel li:last-child { margin-bottom: 0; }
 
 /* ══ SKILLS ══ */
 .skills-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 0 60px; }
