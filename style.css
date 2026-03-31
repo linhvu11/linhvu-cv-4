@@ -330,6 +330,7 @@ nav a.active { color: white; border-bottom-color: rgba(255,255,255,0.45); }
 .reveal.visible { opacity: 1; transform: none; }
 
 /* ══ LANGUAGE SWITCHER ══ */
+/*
 .lang-switcher {
   position: relative;
   display: flex;
@@ -342,7 +343,7 @@ nav a.active { color: white; border-bottom-color: rgba(255,255,255,0.45); }
   background: none; border: 1px solid rgba(255,255,255,0.25);
   border-radius: 4px; padding: 4px 10px;
   cursor: pointer; transition: all 0.15s;
-  line-height: 1; /* prevents extra vertical space from button default */
+  line-height: 1;
 }
 .lang-current:hover { color: white; border-color: rgba(255,255,255,0.6); }
 .lang-menu {
@@ -360,6 +361,7 @@ nav a.active { color: white; border-bottom-color: rgba(255,255,255,0.45); }
   transition: background 0.15s;
 }
 .lang-menu a:hover { background: rgba(255,255,255,0.08); color: white; }
+*/
 
 /* ══ MOBILE responsive adjustments ══ */
 @media (max-width: 800px) {
