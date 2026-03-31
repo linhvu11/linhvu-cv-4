@@ -53,6 +53,7 @@ function toggleCard(btn) {
 }
 
 // Language switcher
+/*
 function toggleLangMenu(btn) {
   const menu = btn.nextElementSibling;
   menu.classList.toggle('open');
@@ -63,3 +64,4 @@ document.addEventListener('click', e => {
       .forEach(m => m.classList.remove('open'));
   }
 });
+*/
